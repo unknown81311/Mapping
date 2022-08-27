@@ -1,3 +1,3 @@
 add_library(Steam INTERFACE)
 
-target_include_directories(Steam PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_include_directories(Steam INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/include")
